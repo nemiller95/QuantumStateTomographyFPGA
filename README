@@ -1,0 +1,10 @@
+This work was produced by Nathan Eli Miller, Biswadeep Chakraborty and Saibal Mukhopadhyay as in:
+N. E. Miller, B. Chakraborty and S. Mukhopadhyay, "A Reconfigurable Quantum State Tomography Solver in FPGA," 2023 IEEE International Conference on Quantum Computing and Engineering (QCE), Bellevue, WA, USA, 2023, pp. 1412-1421, doi: 10.1109/QCE57702.2023.00160.
+
+The index encodings, easily produced by the produce_tensor function in "produce_ATAA" are shown in the index_encodings directory for n=[1,6].
+
+The directory lagos_data_signed32bit are sample expectation value data for circuits run according to the cited work using the IBM Lagos Device. This data is only useful as an example input for the Vivado project.
+
+To create an n-qubit tomography solver, users must reconfigure the BRAM and BROM controllers, as well as the qst_32.v file and its inputs, according to the memory sizes described in the paper.
+
+For any questions, please contact nathan.miller@gatech.edu.
