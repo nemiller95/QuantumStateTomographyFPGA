@@ -3,7 +3,7 @@ N. E. Miller, B. Chakraborty and S. Mukhopadhyay, "A Reconfigurable Quantum Stat
 
 The index encodings, easily produced by the produce_tensor function in "produce_ATAA" are shown in the index_encodings directory for n=[1,6].
 
-The directory lagos_data_signed32bit are sample expectation value data for circuits run according to the cited work using the IBM Lagos Device. This data is only useful as an example input for the Vivado project.
+The directory lagos_data_signed32bit are sample expectation value data for circuits run according to the cited work using the IBM Lagos noise model and 32-bit fixed point encoding. This data is only useful as an example input for the Vivado project.
 
 To create an n-qubit tomography solver, users must reconfigure the BRAM and BROM controllers, as well as the qst_32.v file and its inputs, according to the memory sizes described in the paper.
 
